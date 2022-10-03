@@ -1,14 +1,19 @@
-var nome = "Caneta";
-var quantidade = 10;
-var preco = 6.4;
-let imposto = 1.5;
-let precoFinal = preco + imposto;
+let preco = 19.9;
+let desconto = 0.4;
 
-console.log(nome);
-console.log(quantidade);
-console.log(preco);
-console.log(imposto);
-console.log(precoFinal);
+console.log(19.9 * 0.6);
 
-nome = "Caneta Bic";
-console.log(nome);
+let precoComDesconto = preco * (1 - desconto);
+console.log(precoComDesconto);
+
+let nome = "Caderno";
+let categoria = "Papelaria";
+
+console.log(
+  "Produto: " +
+    nome +
+    " Categoria: " +
+    categoria +
+    " Preço: " +
+    precoComDesconto
+);
