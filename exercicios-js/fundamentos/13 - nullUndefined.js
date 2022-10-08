@@ -1,14 +1,14 @@
-const a = { nome: "Teste" };
-console.log("Primeira Impressão: ", a);
+const a = { nome: 'Teste' };
+console.log('Primeira Impressão: ', a);
 const b = a;
-b.nome = "Opa";
-console.log("Segunda Impressão: ", b);
+b.nome = 'Opa';
+console.log('Segunda Impressão: ', b);
 
 let c = 3;
-console.log("Primeira Impressão: ", c);
+console.log('Primeira Impressão: ', c);
 let d = c;
 d++;
-console.log("Segunda Impressão: ", d); //mudou o valor por causa que foi usado um valor primitivo!
+console.log('Segunda Impressão: ', d); //mudou o valor por causa que foi usado um valor primitivo!
 
 let valor; // não inicializada / não definida
 console.log(valor);

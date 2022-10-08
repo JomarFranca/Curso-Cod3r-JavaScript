@@ -1,4 +1,4 @@
-let qualquer = "Legal";
+let qualquer = 'Legal';
 console.log(qualquer);
 console.log(typeof qualquer);
 
@@ -7,6 +7,6 @@ console.log(qualquer);
 console.log(typeof qualquer);
 
 //Evite nome genéricos e siglas
-let valor = "";
+let valor = '';
 let numero = 1;
 let pqp = false; //Produto Químico Perigoso... kkkk

@@ -5,7 +5,7 @@ console.log(valores[4]);
 valores[4] = 10;
 console.log(valores);
 console.log(valores.length); // método para setar o tamanho
-valores.push({ id: 3 }, false, null, "teste"); // método p/ aumenta o tamanho
+valores.push({ id: 3 }, false, null, 'teste'); // método p/ aumenta o tamanho
 console.log(valores);
 
 console.log(valores.pop()); // método retorna o ultimo valor
